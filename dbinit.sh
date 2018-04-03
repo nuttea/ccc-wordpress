@@ -7,7 +7,7 @@ source /usr/local/osmosix/etc/userenv
 #chmod 777 /tmp
 cd /tmp
 
-#wget http://$REPOSITORY_URL/wordpress/4.0.1/wordpress.sql.tmpl
+wget https://raw.githubusercontent.com/nuttea/ccc-wordpress/master/wordpress.sql.tmpl
 BASE_DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 sudo mv $BASE_DIR/wordpress.sql.tmpl .
 
