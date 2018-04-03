@@ -8,8 +8,8 @@ source /usr/local/osmosix/etc/userenv
 cd /tmp
 
 wget https://raw.githubusercontent.com/nuttea/ccc-wordpress/master/wordpress.sql.tmpl
-BASE_DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-sudo mv $BASE_DIR/wordpress.sql.tmpl .
+#BASE_DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+#sudo mv $BASE_DIR/wordpress.sql.tmpl .
 
 cp wordpress.sql.tmpl wordpress.sql
 
