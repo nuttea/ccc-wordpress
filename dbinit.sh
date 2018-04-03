@@ -4,7 +4,7 @@
 source /usr/local/osmosix/etc/userenv
 . /usr/local/osmosix/service/utils/cfgutil.sh
 
-#chmod 777 /tmp
+chmod 777 /tmp
 cd /tmp
 
 wget https://raw.githubusercontent.com/nuttea/ccc-wordpress/master/wordpress.sql.tmpl
